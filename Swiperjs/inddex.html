@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+      
+    <section class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+             
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="img/cast1.jpg" alt="card image">
+                </div>
+
+                <div class="card-content">
+                    <span class="card-title">Web Development</span>
+                    <span class="card-name">John Smith</span>
+                    <p class="card-text">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Velit, culpa? 
+                        Delectus excepturi optio, maiores tempore 
+                        voluptatem itaque magnam et incidunt.</p>
+                        <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="img/cast2.jpg" alt="card image">
+                </div>
+
+                <div class="card-content">
+                    <span class="card-title">Web Designer</span>
+                    <span class="card-name">Alicia Angels</span>
+                    <p class="card-text">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Velit, culpa? 
+                        Delectus excepturi optio, maiores tempore 
+                        voluptatem itaque magnam et incidunt.</p>
+                        <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="img/cast3.jpg" alt="card image">
+                </div>
+
+                <div class="card-content">
+                    <span class="card-title">Video Maker</span>
+                    <span class="card-name">Roberto Moralece</span>
+                    <p class="card-text">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Velit, culpa? 
+                        Delectus excepturi optio, maiores tempore 
+                        voluptatem itaque magnam et incidunt.</p>
+                        <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="img/cast4.jpg" alt="card image">
+                </div>
+
+                <div class="card-content">
+                    <span class="card-title">Mobile Developer</span>
+                    <span class="card-name">Jane Carter</span>
+                    <p class="card-text">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Velit, culpa? 
+                        Delectus excepturi optio, maiores tempore 
+                        voluptatem itaque magnam et incidunt.</p>
+                        <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="img/cast5.jpg" alt="card image">
+                </div>
+
+                <div class="card-content">
+                    <span class="card-title">Data Scientist</span>
+                    <span class="card-name">Marcus velascez</span>
+                    <p class="card-text">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Velit, culpa? 
+                        Delectus excepturi optio, maiores tempore 
+                        voluptatem itaque magnam et incidunt.</p>
+                        <button>Read More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
